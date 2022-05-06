@@ -3,7 +3,8 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <img alt="Vue logo" src="/logo.png" />
+  <img class="mx-auto" alt="Vue logo" src="/logo.png" />
+  <p class="text-3xl font-bold underline mb-4">Hello World</p>
   <HelloWorld msg="Vite Template Vue3" />
 </template>
 

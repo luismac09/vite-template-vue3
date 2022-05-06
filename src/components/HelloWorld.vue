@@ -14,7 +14,13 @@ const count = ref(0)
 <template>
   <h1>{{ msg }}</h1>
 
-  <button type="button" @click="count++">count is: {{ count }}</button>
+  <button
+    class="p-2 bg-slate-400 rounded-xl active:border-2 border-gray-100 border-solid"
+    type="button"
+    @click="count++"
+  >
+    count is: {{ count }}
+  </button>
 </template>
 
 <style scoped>
